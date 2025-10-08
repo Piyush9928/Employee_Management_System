@@ -2,4 +2,4 @@ services:
   - name: backend
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python -m uvicorn server:app --reload
+    startCommand: python -m uvicorn server:app --reload 
